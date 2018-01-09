@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-abbr',
   template: `
     <input type="text" (input)="onUserInput($event)" [value]="abbr" />
+    <p>Input: {{abbr}}</p>
   `
 })
 export class AbbrComponent {
